@@ -35,7 +35,7 @@
             }
             document.addEventListener("DOMContentLoaded", () => {
                 uploadcare.Widget('[name="file"]', {
-                    "publicKey": "c2abc615c3bbde64ba44",
+                    "publicKey": "[public key]",
                     "tabs": "file url",
                     "effects": "crop",
                     "UPLOADCARE_STORE": 1
