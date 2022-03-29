@@ -42,7 +42,7 @@
         ?>
         <footer style="position:absolute;bottom:0;width:100%;height:25px;">
             <div style="text-align:center">
-                Made with my <a href="#" style="text-decoration:none;">🐱</a> and <span style="color:salmon">♥</span> + some <a href="#" style="text-decoration:none;color:black;" onclick="Swal.fire('Buy me a cup of Coffee?','ETH:0xf841Bb4F8C4B85aD9B3A0C029581C12D23A2aB64','question')"><b>Coffee</b></a>
+                Made with my <a href="https://www.socialcredit.icu/show/?p=vZ" style="text-decoration:none;">🐱</a> and <span style="color:salmon">♥</span> + some <a href="#" style="text-decoration:none;color:black;" onclick="Swal.fire('Buy me a cup of Coffee?','ETH:0xf841Bb4F8C4B85aD9B3A0C029581C12D23A2aB64','question')"><b>Coffee</b></a>
             </div>
         </footer>
     </body>
