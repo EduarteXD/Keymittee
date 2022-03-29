@@ -16,21 +16,12 @@
           window.OneSignal = window.OneSignal || [];
           OneSignal.push(function() {
             OneSignal.init({
-              appId: "99611d01-c7e7-4820-9bcf-4cd57dd3642f",
+              appId: "[Your app id here]",
             });
           });
         </script>
         <script>
             console.log(' __   __     ______     ______   __  __     __     __   __     ______    \n/\\ "-.\\ \\   /\\  __ \\   /\\__  _\\ /\\ \\_\\ \\   /\\ \\   /\\ "-.\\ \\   /\\  ___\\   \n\\ \\ \\-.  \\  \\ \\ \\/\\ \\  \\/_/\\ \\/ \\ \\  __ \\  \\ \\ \\  \\ \\ \\-.  \\  \\ \\ \\__ \\  \n \\ \\_\\\\"\\_\\  \\ \\_____\\    \\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\  \\ \\_\\\\"\\_\\  \\ \\_____\\ \n  \\/_/ \\/_/   \\/_____/     \\/_/   \\/_/\\/_/   \\/_/   \\/_/ \\/_/   \\/_____/ \n                                                                         \n __  __     ______     ______     ______                                 \n/\\ \\_\\ \\   /\\  ___\\   /\\  == \\   /\\  ___\\                                \n\\ \\  __ \\  \\ \\  __\\   \\ \\  __<   \\ \\  __\\                                \n \\ \\_\\ \\_\\  \\ \\_____\\  \\ \\_\\ \\_\\  \\ \\_____\\                              \n  \\/_/\\/_/   \\/_____/   \\/_/ /_/   \\/_____/                              \n\n');function logout(){document.cookie="PHPSESSID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";return"logged out"};
-        </script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7G775360SZ"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-7G775360SZ');
         </script>
     </head>
     <body>
@@ -51,7 +42,7 @@
         ?>
         <footer style="position:absolute;bottom:0;width:100%;height:25px;">
             <div style="text-align:center">
-                Made with my <a href="https://www.socialcredit.icu/show/?p=vZ" style="text-decoration:none;">🐱</a> and <span style="color:salmon">♥</span> + some <a href="#" style="text-decoration:none;color:black;" onclick="Swal.fire('Buy me a cup of Coffee?','ETH:0xf841Bb4F8C4B85aD9B3A0C029581C12D23A2aB64','question')"><b>Coffee</b></a>
+                Made with my <a href="#" style="text-decoration:none;">🐱</a> and <span style="color:salmon">♥</span> + some <a href="#" style="text-decoration:none;color:black;" onclick="Swal.fire('Buy me a cup of Coffee?','ETH:0xf841Bb4F8C4B85aD9B3A0C029581C12D23A2aB64','question')"><b>Coffee</b></a>
             </div>
         </footer>
     </body>
