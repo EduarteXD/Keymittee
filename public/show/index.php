@@ -23,23 +23,14 @@
         <meta itemprop="name" content="u/<?echo $dat[3];?> pin了:">
         <meta itemprop="image" content="https://ucarecdn.com/5b6edc46-e040-4d68-a7ea-889287b68ce1/thumbnail.jpg">
         <link rel="icon" type="image/x-icon" href="../img/thumbnail.jpg" />
-        <title><?echo $dat[3];?>: <?echo $dat[2];?></title>
+        <title>Keymittee! - <?echo $dat[3];?>: <?echo $dat[2];?></title>
         <meta charset="utf-8">
         <style>
             .container{width:60%;margin:auto;top:90px;padding:2%;display:flex;border-radius:10px}.navi{width:100%;margin:auto;top:0;height:45px;background-color:#ccc}ul{padding-left:20px}ul li{line-height:2.3}a{color:#20a53a}footer{position:absolute;bottom:0;width:100%;height:25px;background-color:#ccc}
         </style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7G775360SZ"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-7G775360SZ');
-        </script>
-		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.7/dist/sweetalert2.all.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.7/dist/sweetalert2.all.min.js"></script>
     </head>
     <body>
 		<?
