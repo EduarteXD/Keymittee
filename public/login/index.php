@@ -2,7 +2,7 @@
     session_start();
     if(isset($_GET["token"]))
     {
-        if($_GET["token"] == "UM25eucy")
+        if($_GET["token"] == "[token]")
         {
             $return = array("status" => "success");
             echo json_encode($return);
