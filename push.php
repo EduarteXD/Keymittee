@@ -3,8 +3,11 @@
 		$content      = array(
 			"en" => $msg
 		);
+		$headings     = array(
+		    "en" => "Keymittee! - 新k文"
+		);
 		$fields = array(
-			'app_id' => "[Your app id here]",
+			'app_id' => "[appID]",
 			'included_segments' => array(
 				'Subscribed Users'
 			),
@@ -12,6 +15,7 @@
 				"foo" => "bar"
 			),
 			'contents' => $content,
+			'headings' => $headings,
 			'url' => $url,
 			'chrome_web_image' => $img
 		);
@@ -24,7 +28,7 @@
 		curl_setopt($ch, CURLOPT_URL, "https://onesignal.com/api/v1/notifications");
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 			'Content-Type: application/json; charset=utf-8',
-			'Authorization: Basic [Your key here]'
+			'Authorization: Basic [Key]'
 		));
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 		curl_setopt($ch, CURLOPT_HEADER, FALSE);
