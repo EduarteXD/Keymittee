@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="keywords" content="Social Credit,键委之家">
-        <title>键委之家</title>
+        <meta name="keywords" content="Social Credit,Keymittee">
+        <title>Keymittee!</title>
         <link rel="icon" type="image/x-icon" href="/img/thumbnail.jpg" />
         <style>
             .container{width:60%;margin:auto;top:0;bottom:0;left:0;right:0;margin-top:9%;padding:2% 5%;border-radius:10px}ul{padding-left:20px}ul li{line-height:2.3}a{color:#20a53a}.link{color:#555;font-family:"Microsoft YaHei",Courgette,cursive;font-size:30px;line-height:25px;display:inline-block;position:relative;z-index:1;transition:all .5s}.font-other{font-family:"Microsoft YaHei","Microsoft JhengHei","Segoe UI","Lucida Grande",Helvetica,Arial,sans-serif}.link:hover{color:transparent}.link:after,.link:before{content:attr(data-hover);white-space:nowrap;position:absolute;left:0;top:0;height:100%;width:100%;transition:all .5s}.link:after{color:#1da493;opacity:0;left:-10px}.link:hover:before{left:15px;opacity:0}.link:hover:after{left:0;opacity:1;transition-delay:.1s}@media only screen and (max-width:990px){.link span{font-size:20px}}@media only screen and (max-width:767px){.link{margin:0 0 30px}}
@@ -21,13 +21,13 @@
           });
         </script>
         <script>
-            console.log(' __   __     ______     ______   __  __     __     __   __     ______    \n/\\ "-.\\ \\   /\\  __ \\   /\\__  _\\ /\\ \\_\\ \\   /\\ \\   /\\ "-.\\ \\   /\\  ___\\   \n\\ \\ \\-.  \\  \\ \\ \\/\\ \\  \\/_/\\ \\/ \\ \\  __ \\  \\ \\ \\  \\ \\ \\-.  \\  \\ \\ \\__ \\  \n \\ \\_\\\\"\\_\\  \\ \\_____\\    \\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\  \\ \\_\\\\"\\_\\  \\ \\_____\\ \n  \\/_/ \\/_/   \\/_____/     \\/_/   \\/_/\\/_/   \\/_/   \\/_/ \\/_/   \\/_____/ \n                                                                         \n __  __     ______     ______     ______                                 \n/\\ \\_\\ \\   /\\  ___\\   /\\  == \\   /\\  ___\\                                \n\\ \\  __ \\  \\ \\  __\\   \\ \\  __<   \\ \\  __\\                                \n \\ \\_\\ \\_\\  \\ \\_____\\  \\ \\_\\ \\_\\  \\ \\_____\\                              \n  \\/_/\\/_/   \\/_____/   \\/_/ /_/   \\/_____/                              \n\n');function logout(){document.cookie="PHPSESSID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";return"logged out"};
+            console.log(' __   __     ______     ______   __  __     __     __   __     ______    \n/\\ "-.\\ \\   /\\  __ \\   /\\__  _\\ /\\ \\_\\ \\   /\\ \\   /\\ "-.\\ \\   /\\  ___\\   \n\\ \\ \\-.  \\  \\ \\ \\/\\ \\  \\/_/\\ \\/ \\ \\  __ \\  \\ \\ \\  \\ \\ \\-.  \\  \\ \\ \\__ \\  \n \\ \\_\\\\"\\_\\  \\ \\_____\\    \\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\  \\ \\_\\\\"\\_\\  \\ \\_____\\ \n  \\/_/ \\/_/   \\/_____/     \\/_/   \\/_/\\/_/   \\/_/   \\/_/ \\/_/   \\/_____/ \n                                                                         \n __  __     ______     ______     ______                                 \n/\\ \\_\\ \\   /\\  ___\\   /\\  == \\   /\\  ___\\                                \n\\ \\  __ \\  \\ \\  __\\   \\ \\  __<   \\ \\  __\\                                \n \\ \\_\\ \\_\\  \\ \\_____\\  \\ \\_\\ \\_\\  \\ \\_____\\                              \n  \\/_/\\/_/   \\/_____/   \\/_/ /_/   \\/_____/                              \nInDev 1.0.1\n');function logout(){document.cookie="PHPSESSID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";return"logged out"};
         </script>
     </head>
     <body>
         <div class="container">
             <center>
-                <a href="#" class="link" data-hover="键委之家" style="font-size:800%;margin-top:20vh;text-decoration:none;">键委之家</a>
+                <a href="#" class="link" data-hover="Keymittee!" style="font-size:800%;margin-top:20vh;text-decoration:none;">Keymittee!</a>
             </center>
         </div>
         <?
