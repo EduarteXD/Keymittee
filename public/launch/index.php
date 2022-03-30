@@ -43,7 +43,7 @@
         $_query = "insert into `data` (`id`, `nsfw`, `img`, `comment`, `name`) VALUES ('" . $id . "', '" . $nsfw . "', '" . $file . "', '" . $comment . "', '" . $name . "') ";
         mysqli_query($_connection, $_query);
 		$_SESSION["firstLaunch"] = 1;
-        sendMessage($name . ": " . $comment, "[Your site]/show/?p=" . $id, $file);
+        sendMessage($name . ": " . $comment, "https://www.socialcredit.icu/show/?p=" . $id, $file);
         header("Location:../show/?p=" . $id);
     }
     else
