@@ -2,7 +2,7 @@
     session_start();
     if(isset($_GET["token"]))
     {
-        if($_GET["token"] == "UM25eucy")
+        if($_GET["token"] == "[*SENSITIVE*]")
         {
             $return = array("status" => "success");
             echo json_encode($return);
@@ -24,7 +24,7 @@
     <head>
         <title>登录</title>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.7/dist/sweetalert2.all.min.js"></script>
-        <link rel="icon" type="image/x-icon" href="../img/thumbnail.jpg" />
+        <link rel="icon" type="image/x-icon" href="../img/icon.ico" />
     </head>
     <body>
         <script>

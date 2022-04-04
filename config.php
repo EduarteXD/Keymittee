@@ -1,5 +1,5 @@
 <?php
-    $_db_name = "comments";
-    $_db_user = "comments";
-    $_db_pswd = "comments";
+    $_db_name = "[*SENSITIVE*]";
+    $_db_user = "[*SENSITIVE*]";
+    $_db_pswd = "[*SENSITIVE*]";
 ?>

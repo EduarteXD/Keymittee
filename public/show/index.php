@@ -22,8 +22,8 @@
         <meta name="description" itemprop="description" content="<?echo $dat[2];?>">
         <meta itemprop="name" content="u/<?echo $dat[3];?> pin了:">
         <meta itemprop="image" content="https://ucarecdn.com/5b6edc46-e040-4d68-a7ea-889287b68ce1/thumbnail.jpg">
-        <link rel="icon" type="image/x-icon" href="../img/thumbnail.jpg" />
-        <title><?echo $dat[3];?>: <?echo $dat[2];?></title>
+        <link rel="icon" type="image/x-icon" href="../img/icon.ico" />
+        <title>Keymittee! - <?echo $dat[3];?>: <?echo $dat[2];?></title>
         <meta charset="utf-8">
         <style>
             .container{width:60%;margin:auto;top:90px;padding:2%;display:flex;border-radius:10px}.navi{width:100%;margin:auto;top:0;height:45px;background-color:#ccc}ul{padding-left:20px}ul li{line-height:2.3}a{color:#20a53a}footer{position:absolute;bottom:0;width:100%;height:25px;background-color:#ccc}
@@ -97,7 +97,7 @@
                     </div>
                     <br>
                     <div>
-                        <img style="text-align:center;max-width:100%;max-height:75%;margin:auto;position:absolute;top:20px;bottom:0;left:0;right:0;padding: 2% 10% 2% 10%;display: inline-block;vertical-align:middle;" class="mr-3" src="<?echo $dat[1];?>">
+                        <img style="text-align:center;max-width:100%;max-height:70%;margin:auto;position:absolute;top:20px;bottom:0;left:0;right:0;padding: 2% 10% 2% 10%;display: inline-block;vertical-align:middle;" class="mr-3" src="<?echo $dat[1];?>">
                     </div>
                 </div>
             </div>

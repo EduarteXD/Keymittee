@@ -15,8 +15,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Save the Image</title>
-        <link rel="icon" type="image/x-icon" href="../img/thumbnail.jpg" />
+        <title>Keymittee! - new Post</title>
+        <link rel="icon" type="image/x-icon" href="../img/icon.ico" />
         <style>
             .container{width:60%;margin:9% auto 0;padding:2% 5%;border-radius:10px}ul{padding-left:20px}ul li{line-height:2.3}a{color:#20a53a}
         </style>
@@ -35,7 +35,7 @@
             }
             document.addEventListener("DOMContentLoaded", () => {
                 uploadcare.Widget('[name="file"]', {
-                    "publicKey": "[public key]",
+                    "publicKey": "[*SENSITIVE*]",
                     "tabs": "file url",
                     "effects": "crop",
                     "UPLOADCARE_STORE": 1
@@ -121,7 +121,7 @@
                     <label class="form-check-label" for="agreement">我明白帖子不能被删除。</label>
                 </div>
                 <div class="form-check mb-3">
-                    <a href="mailto:info@socialcredit.icu" style="text-decoration:none;">有任何问题，请致信</a>
+                    <a href="mailto:[*SENSITIVE*]" style="text-decoration:none;">有任何问题，请致信</a>
                 </div>
             </form>
             <script>
