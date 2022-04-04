@@ -121,7 +121,7 @@
                     <label class="form-check-label" for="agreement">我明白帖子不能被删除。</label>
                 </div>
                 <div class="form-check mb-3">
-                    <a href="mailto:[*SENSITIVE*]" style="text-decoration:none;">有任何问题，请致信</a>
+                    <a href="mailto:info@socialcredit.icu" style="text-decoration:none;">有任何问题，请致信</a>
                 </div>
             </form>
             <script>
