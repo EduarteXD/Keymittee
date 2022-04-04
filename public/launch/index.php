@@ -4,7 +4,7 @@
 		header("Location:https://www.socialcredit.icu/post/?forbid=1" . $id . "&res=" . $reason);
 	}
 
-    session_start();
+    	session_start();
 	if(!isset($_SESSION["sid"]))
 	{
 		revoke(0);
@@ -25,7 +25,7 @@
 	}
 	if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
-        require_once("../../push.php");
+        require_once("../../notifier.php");
         require_once("../../config.php");
         require_once("../../base62.php");
         $_connection = mysqli_connect("127.0.0.1", $_db_user, $_db_pswd, $_db_name);
